@@ -177,8 +177,23 @@ export const challenges: Challenge[] = [
   { name: 'False Son: Stare Them Down', description: 'As False Son, kill 15 enemies with one activation of Laser of the Father.', unlocks: ['Skills.FalseSon.LaserBurst'], achievement: 'FalseSonLaserMultiKill', icon: 'skills/falseson/laserburst' },
   { name: 'False Son: Mastery', description: 'As False Son, beat the game or obliterate on Monsoon.', unlocks: ['Skins.FalseSon.Alt1'], achievement: 'FalseSonClearGameMonsoon', icon: 'skins/falseson/alt1' },
   { name: 'False Son: Protein Heavy Diet', description: 'As False Son, gain up to 40 Lunar Spikes through Growth.', unlocks: ['Skills.FalseSon.LunarStake'], achievement: 'FalseSonGrowthChallenge', icon: 'skins/falseson/alt1' },
-  { name: 'False Son: Family Bonding', description: 'As False Son, have Aurelionite kill the final boss while the final boss is inflicted with at least one Lunar Ruin.', unlocks: ['Skills.FalseSon.MeridiansWill'], achievement: 'FalseSonClearMeridianEvent', icon: 'skins/falseson/alt1' },
+  { name: 'False Son: Family Bonding', description: 'As False Son, have Aurelionite kill the final boss while the final boss is inflicted with at least one Lunar Ruin.', unlocks: ['Skills.FalseSon.MeridiansWill'], achievement: 'FalseSonKillMithrixWithGoldenGal', icon: 'skins/falseson/alt1' },
 
+  /* Operator Skills */
+  { name: 'Lost in Transit', description: '', unlocks: ['Skills.DroneTech.ShieldFormation'], achievement: 'DroneTechTrickshot', icon: 'artifacts/bomb' },
+  { name: 'Operator: That All You Got?', description: 'As Operator kill 4 different types of monsters with a single ricochet.', unlocks: ['Skills.DroneTech.ShieldFormation'], achievement: 'DroneTechTrickshot', icon: 'artifacts/bomb' },
+  { name: 'Operator: Mastery', description: '', unlocks: ['Skins.DroneTech.Alt1'], achievement: 'DroneTechClearGameMonsoon', icon: 'artifacts/bomb' },
+  { name: 'Operator: That Just Happened', description: 'As Operator keep an Elder Lemurian airborne for 10 seconds.', unlocks: ['Skills.DroneTech.DroneBallShootable'], achievement: 'DroneTechJuggleLemurian', icon: 'artifacts/bomb' },
+  { name: 'Operator: Not So Different', description: 'As Operator defeat the teleporter boss on Conduit Canyon without touching the ground.', unlocks: ['Skills.DroneTech.CommandHeadbutt'], achievement: 'DroneTechDefeatVultureBossWhileAirborne', icon: 'artifacts/bomb' },
+  { name: 'Operator: Putting Together a Team', description: 'As Operator recruit 5 different drones.', unlocks: ['Skills.DroneTech.DroneHauler'], achievement: 'DroneTechUniqueDrones', icon: 'artifacts/bomb' },
+
+  /* Drifter Skills */
+  { name: 'Drifter: Mastery', description: 'As Drifter carry 20 temporary items at once.', unlocks: [''], achievement: 'FreeDrifter', icon: 'artifacts/bomb' },
+  { name: 'Drifter: Trash Compactor', description: 'As Drifter carry 20 temporary items at once.', unlocks: [''], achievement: 'DrifterJunkCubeAchievement', icon: 'artifacts/bomb' },
+  { name: 'Drifter: Leave No Trace', description: 'As Drifter claim the contents of the lost backpack in the vault of Solutional Haunt.', unlocks: [''], achievement: 'DrifterTornadoSlamAchievement', icon: 'artifacts/bomb' },
+  { name: 'Drifter: In The Bag', description: 'As Drifter defeat a boss from the challenge of the Mountain using a Shrine of the Mountain.', unlocks: [''], achievement: 'DrifterTinkerAchievement', icon: 'artifacts/bomb' },
+  { name: 'Drifter: Mastery', description: 'As Drifter carry 20 temporary items at once.', unlocks: [''], achievement: 'DrifterClearGameMonsoon', icon: 'artifacts/bomb' },
+  
   /* Artifacts */
   { name: 'Trial of Spite', description: 'Complete the Trial of Spite.', unlocks: ['Artifacts.Bomb'], achievement: 'ObtainArtifactBomb', icon: 'artifacts/bomb' },
   { name: 'Trial of Command', description: 'Complete the Trial of Command.', unlocks: ['Artifacts.Command'], achievement: 'ObtainArtifactCommand', icon: 'artifacts/command' },
