@@ -191,7 +191,7 @@ export const challenges: Challenge[] = [
   { name: 'False Son: Family Bonding', description: 'As False Son, have Aurelionite kill the final boss while the final boss is inflicted with at least one Lunar Ruin.', unlocks: ['Skills.FalseSon.MeridiansWill'], achievement: 'FalseSonKillMithrixWithGoldenGal', icon: 'artifacts/bomb' },
 
   /* Operator Skills */
-  { name: 'Lost in Transit', description: '', unlocks: ['Skills.DroneTech.ShieldFormation'], achievement: 'DroneTechTrickshot', icon: 'artifacts/bomb' },
+  { name: 'Lost in Transit', description: '', unlocks: ['Skills.DroneTech.ShieldFormation'], achievement: 'FreeDrifter', icon: 'artifacts/bomb' },
   { name: 'Operator: That All You Got?', description: 'As Operator kill 4 different types of monsters with a single ricochet.', unlocks: ['Skills.DroneTech.ShieldFormation'], achievement: 'DroneTechTrickshot', icon: 'artifacts/bomb' },
   { name: 'Operator: Mastery', description: '', unlocks: ['Skins.DroneTech.Alt1'], achievement: 'DroneTechClearGameMonsoon', icon: 'artifacts/bomb' },
   { name: 'Operator: That Just Happened', description: 'As Operator keep an Elder Lemurian airborne for 10 seconds.', unlocks: ['Skills.DroneTech.DroneBallShootable'], achievement: 'DroneTechJuggleLemurian', icon: 'artifacts/bomb' },
