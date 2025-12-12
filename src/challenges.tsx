@@ -162,11 +162,15 @@ export const challenges: Challenge[] = [
   /* Seeker skills */
   { name: 'Seeker: Airborne Souls', description: 'As Seeker, hit three or more airborne enemies with a single use of the exploding third hit of Spirit Punch.', unlocks: ['Skills.Seeker.SoulSearch'], achievement: 'SeekerAirMultiHit', icon: 'skills/seeker/soulsearch' },
   { name: 'Seeker: Mastery', description: 'As Seeker, beat the game or obliterate on Monsoon.', unlocks: ['Skins.Seeker.Alt1'], achievement: 'SeekerClearGameMonsoon', icon: 'skins/seeker/alt1' },
+  { name: 'Seeker: Clear Mind', description: 'As Seeker, meditate 20 times without missing an input in a single run.', unlocks: ['Skills.Seeker.PalmBlast'], achievement: 'SeekerPerfect20Meditation', icon: 'skins/seeker/alt1' },
+  { name: 'Seeker: Scorched Earth', description: 'Deal 500,000% damage with one use of Sojourn\'s explosion', unlocks: ['Skills.Seeker.Reprieve'], achievement: 'SeekerClearMeridianEvent', icon: 'skins/seeker/alt1' },
 
   /* Chef skills */
   { name: 'Order Up!', description: 'Complete the Wok\'s recipe in Reformed Altar.', unlocks: ['Characters.Chef'], achievement: 'ActivateChef', icon: 'characters/chef' },
   { name: 'Chef: Barbecued Bison Recipe Complete', description: 'As Chef complete 10 recipes by searing an oiled bison with Sear.', unlocks: ['Skills.Chef.YesChef'], achievement: 'BarbecueQuantityBisonInRun', icon: 'skills/chef/searbison' },
   { name: 'Chef: Mastery', description: 'As Chef, beat the game or obliterate on Monsoon.', unlocks: ['Skins.Chef.Alt1'], achievement: 'ChefClearGameMonsoon', icon: 'skins/chef/alt1' },
+  { name: 'CHEF: You’ve Always Been Crazy', description: 'As CHEF hit five airborne enemies with one instance of Roll.', unlocks: ['Skills.Chef.OilSpill'], achievement: 'ChefMeridianEvent', icon: 'skins/chef/alt1' },
+  { name: 'CHEF: It’s Getting Hot In Here!', description: 'As CHEF apply 20 stacks of Burn at once to the final boss.', unlocks: ['Skills.Chef.IceBox'], achievement: 'BurnMithrix', icon: 'skins/chef/alt1' },
 
   /* False Son skills */
   { name: 'Purified Freedom', description: 'Purify the Heart of the False Son using the Halcyon Seed.', unlocks: ['Characters.FalseSon'], achievement: 'UnlockFalseSon', icon: 'characters/falseson' },
