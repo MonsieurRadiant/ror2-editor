@@ -5,5 +5,5 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   publicDir: "public",
-  base: "ror2-editor",
+  base: "/ror2-editor/",
 });
