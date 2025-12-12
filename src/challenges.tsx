@@ -67,6 +67,7 @@ export const challenges: Challenge[] = [
   { name: 'Commando: Incorruptible', description: 'As Commando, clear 20 stages in a single run without picking up any Lunar items.', unlocks: ['Skills.Commando.ThrowGrenade'], achievement: 'CommandoNonLunarEndurance', icon: 'skills/commando/throwgrenade' },
   { name: 'Commando: Mastery', description: 'As Commando, beat the game or obliterate on Monsoon.', unlocks: ['Skins.Commando.Alt1'], achievement: 'CommandoClearGameMonsoon', icon: 'skins/commando/alt1' },
   { name: 'Commando: Cleared Prime Meridian', description: 'As Commando, complete the Event on Prime Meridian', unlocks: ['Skins.Commando.Alt2'], achievement: 'CommandoClearMeridianEvent', icon: 'skins/commando/alt2' },
+  { name: 'Commando: Purge', description: '', unlocks: [''], achievement: 'CommandoPurge', icon: 'artifacts/bomb' },
 
   /* Huntress skills */
   { name: 'Huntress: One Shot, One Kill', description: 'As Huntress, collect and carry 12 Crowbars at once.', unlocks: ['Skills.Huntress.MiniBlink'], achievement: 'HuntressCollectCrowbars', icon: 'skills/huntress/miniblink' },
@@ -74,7 +75,8 @@ export const challenges: Challenge[] = [
   { name: 'Huntress: Piercing Wind', description: 'As Huntress, start and finish either Rallypoint Delta or Scorched Acres without falling below 100% health.', unlocks: ['Skills.Huntress.Snipe'], achievement: 'HuntressMaintainFullHealthOnFrozenWall', icon: 'skills/huntress/snipe' },
   { name: 'Huntress: Mastery', description: 'As Huntress, beat the game or obliterate on Monsoon.', unlocks: ['Skins.Huntress.Alt1'], achievement: 'HuntressClearGameMonsoon', icon: 'skins/huntress/alt1' },
   { name: 'Huntress: Cleared Prime Meridian', description: 'As Huntress, complete the Event on Prime Meridian.', unlocks: ['Skins.Huntress.Alt2'], achievement: 'HuntressClearMeridianEvent', icon: 'skins/huntress/alt2' },
-
+  { name: 'Huntress: Purge', description: '', unlocks: [''], achievement: 'HuntressPurge', icon: 'artifacts/bomb' },
+  
   /* Bandit skills */
   { name: 'Warrior', description: 'Reach and complete the 3rd Teleporter event without dying.', unlocks: ['Characters.Bandit2'], achievement: 'CompleteThreeStages', icon: 'characters/bandit2' },
   { name: 'Bandit: Classic Man', description: "As Bandit, successfully use 'Lights Out' to reset your cooldowns 15 times in a row.", unlocks: ['Skills.Bandit2.Rifle'], achievement: 'Bandit2ConsecutiveReset', icon: 'skills/bandit2/rifle' },
@@ -82,7 +84,8 @@ export const challenges: Challenge[] = [
   { name: 'Bandit: B&E', description: "As Bandit, kill the final boss with 'Lights Out'.", unlocks: ['Skills.Bandit2.SkullRevolver'], achievement: 'Bandit2RevolverFinale', icon: 'skills/bandit2/skull-revolver' },
   { name: 'Bandit: Mastery', description: "As Bandit, beat the game or obliterate on Monsoon'.", unlocks: ['Skills.Bandit2.Alt1'], achievement: 'Bandit2ClearGameMonsoon', icon: 'skins/bandit2/alt1' },
   { name: 'Bandit: Cleared Prime Meridian', description: 'As Bandit, complete the Event on Prime Meridian.', unlocks: ['Skins.Bandit2.Alt2'], achievement: 'Bandit2ClearMeridianEvent', icon: 'skins/bandit2/alt2' },
-
+  { name: 'Bandit: Accept and Decompile', description: '', unlocks: [''], achievement: 'Bandit2Decompile', icon: 'artifacts/bomb' },
+  
   /* MUL-T skills */
   { name: 'Verified', description: 'Complete the first Teleporter event 5 times.', unlocks: ['Characters.Toolbot'], achievement: 'RepeatFirstTeleporter', icon: 'characters/toolbot' },
   { name: 'MUL-T: Pest Control', description: 'As MUL-T, defeat two Beetle Queens without leaving the teleporter zone.', unlocks: ['Skills.Toolbot.Grenade'], achievement: 'ToolbotGuardTeleporter', icon: 'skills/toolbot/grenade' },
@@ -90,7 +93,8 @@ export const challenges: Challenge[] = [
   { name: 'MUL-T: Seventh Day', description: 'As MUL-T, clear the Void Fields on Stage 7 or later.', unlocks: ['Skills.Toolbot.SpecialAlt'], achievement: 'ToolbotBeatArenaLater', icon: 'skills/toolbot/special-alt' },
   { name: 'MUL-T: Mastery', description: 'As MUL-T, beat the game or obliterate on Monsoon.', unlocks: ['Skins.Toolbot.Alt1'], achievement: 'ToolbotClearGameMonsoon', icon: 'skins/toolbot/alt1' },
   { name: 'MUL-T: Cleared Prime Meridian', description: 'As MUL-T, complete the Event on Prime Meridian.', unlocks: ['Skins.Toolbot.Alt2'], achievement: 'ToolbotClearMeridianEvent', icon: 'skins/toolbot/alt2' },
-
+  { name: 'MUL-T: Purge', description: '', unlocks: [''], achievement: 'ToolbotPurge', icon: 'artifacts/bomb' },
+  
   /* Engineer skills */
   { name: 'Engineering Perfection', description: 'Complete 30 stages.', unlocks: ['Characters.Engineer'], achievement: 'Complete30StagesCareer', icon: 'characters/engineer' },
   { name: 'Engineer: Better With Friends', description: 'As Engineer, recruit 12 minions at one time.', unlocks: ['Skills.Engi.WalkerTurret'], achievement: 'EngiArmy', icon: 'skills/engi/walkerturret' },
@@ -98,7 +102,8 @@ export const challenges: Challenge[] = [
   { name: 'Engineer: Zero Sum', description: 'As Engineer, finish chargin the teleporter with zero monsters remaining on the stage.', unlocks: ['Skills.Engi.Harpoon'], achievement: 'EngiClearTeleporterWithZeroMonsters', icon: 'skills/engi/harpoon' },
   { name: 'Engineer: Mastery', description: 'As Engineer, beat the game or obliterate on Monsoon.', unlocks: ['Skins.Engi.Alt1'], achievement: 'EngiClearGameMonsoon', icon: 'skins/engi/alt1' },
   { name: 'Engineer: Cleared Prime Meridian', description: 'As Engineer, complete the Event on Prime Meridian.', unlocks: ['Skins.Engi.Alt2'], achievement: 'EngiClearMeridianEvent', icon: 'skins/engi/alt2' },
-
+  { name: 'Engineer: Purge', description: '', unlocks: [''], achievement: 'EngiPurge', icon: 'artifacts/bomb' },
+  
   /* Artificer skills */
   { name: 'Pause', description: 'Free the survivor suspended in time.', unlocks: ['Characters.Mage'], achievement: 'FreeMage', icon: 'characters/mage' },
   { name: 'Artificer: Massacre', description: 'As Artificer, perform a multikill of 20 enemies.', unlocks: ['Skills.Mage.LightningBolt'], achievement: 'MageMultiKill', icon: 'skills/mage/lightningbolt' },
@@ -106,7 +111,8 @@ export const challenges: Challenge[] = [
   { name: 'Artificer: Chunked!', description: 'As Artificer, fully defeat the teleport boss in a one-second burst of damage.', unlocks: ['Skills.Mage.IceBomb'], achievement: 'MageFastBoss', icon: 'skills/mage/icebomb' },
   { name: 'Artificer: Mastery', description: 'As Artificer, beat the game or obliterate on Monsoon.', unlocks: ['Skins.Mage.Alt1'], achievement: 'MageClearGameMonsoon', icon: 'skins/mage/alt1' },
   { name: 'Artificer: Cleared Prime Meridian', description: 'As Artificer, complete the Event on Prime Meridian.', unlocks: ['Skins.Mage.Alt2'], achievement: 'MageClearMeridianEvent', icon: 'skins/mage/alt2' },
-
+  { name: 'Artificer: Accept and Decompile', description: '', unlocks: [''], achievement: 'MageDecompile', icon: 'artifacts/bomb' },
+  
   /* Mercenary skills */
   { name: 'True Respite', description: 'Obliterate yourself at the Obelisk.', unlocks: ['Characters.Mercenary'], achievement: 'CompleteUnknownEnding', icon: 'characters/mercenary' },
   { name: 'Mercenary: Ethereal', description: 'As Mercenary, complete a Prismatic Trial without falling below 100% health.', unlocks: ['Skills.Merc.EvisProjectile'], achievement: 'MercCompleteTrialWithFullHealth', icon: 'skills/merc/evisprojectile' },
@@ -114,6 +120,7 @@ export const challenges: Challenge[] = [
   { name: 'Mercenary: Demon of the Skies', description: 'As Mercenary, kill 15 enemies before touching the ground.', unlocks: ['Skills.Merc.Uppercut'], achievement: 'MercDontTouchGround', icon: 'skills/merc/uppercut' },
   { name: 'Mercenary: Mastery', description: 'As Mercenary, beat the game or obliterate on Monsoon.', unlocks: ['Skins.Merc.Alt1'], achievement: 'MercClearGameMonsoon', icon: 'skins/merc/alt1' },
   { name: 'Mercenary: Cleared Prime Meridian', description: 'As Mercenary, complete the Event on Prime Meridian.', unlocks: ['Skins.Merc.Alt2'], achievement: 'MercClearMeridianEvent', icon: 'skins/merc/alt2' },
+  { name: 'Mercenary: Purge', description: '', unlocks: [''], achievement: 'MercPurge', icon: 'artifacts/bomb' },
 
   /* REX skills */
   { name: 'Power Plant', description: 'Repair the broken robot with an Escape Pod\'s Fuel Array.', unlocks: ['Characters.Treebot'], achievement: 'RescueTreebot', icon: 'characters/treebot' },
@@ -122,7 +129,8 @@ export const challenges: Challenge[] = [
   { name: 'REX: Dunked', description: 'As REX, kill a Clay Dunestrider on Abandoned Aqueduct by throwing it into a pit.', unlocks: ['Skills.Treebot.PlantSonicBoom'], achievement: 'TreebotDunkClayBoss', icon: 'skills/treebot/plantsonicboom' },
   { name: 'REX: Mastery', description: 'As REX, beat the game or obliterate on Monsoon.', unlocks: ['Skins.Treebot.Alt1'], achievement: 'TreebotClearGameMonsoon', icon: 'skins/treebot/alt1' },
   { name: 'Rex: Cleared Prime Meridian', description: 'As Rex, complete the Event on Prime Meridian.', unlocks: ['Skins.Treebot.Alt2'], achievement: 'TreebotClearMeridianEvent', icon: 'skins/treebot/alt2' },
-
+  { name: 'Rex: Accept and Decompile', description: '', unlocks: [''], achievement: 'TreebotDecompile', icon: 'artifacts/bomb' },
+  
   /* Loader skills */
   { name: 'Guidance Offline', description: 'Defeat the unique guardian of Siren\'s Call.', unlocks: ['Characters.Loader'], achievement: 'DefeatSuperRoboBallBoss', icon: 'characters/loader' },
   { name: 'Loader: Swing By', description: 'As Loader, reach and proceed through the Celestial Portal in 25 minutes or less.', unlocks: ['Skills.Loader.ZapFist'], achievement: 'LoaderSpeedRun', icon: 'skills/loader/zapfist' },
@@ -130,7 +138,8 @@ export const challenges: Challenge[] = [
   { name: 'Loader: The Thunderdome', description: "As Loader, kill three other Loaders in the Bulwark's ambry.", unlocks: ['Skills.Loader.Thunderslam'], achievement: 'LoaderKillLoaders', icon: 'skills/loader/thunderslam' },
   { name: 'Loader: Mastery', description: 'As Loader, beat the game or obliterate on Monsoon.', unlocks: ['Skins.Loader.Alt1'], achievement: 'LoaderClearGameMonsoon', icon: 'skins/loader/alt1' },
   { name: 'Loader: Cleared Prime Meridian', description: 'As Loader, complete the Event on Prime Meridian.', unlocks: ['Skins.Loader.Alt2'], achievement: 'LoaderClearMeridianEvent', icon: 'skins/loader/alt2' },
-
+  { name: 'Loader: Accept and Decompile', description: '', unlocks: [''], achievement: 'LoaderDecompile', icon: 'artifacts/bomb' },
+  
   /* Acrid skills */
   { name: '...To Be Left Alone', description: 'Stabilize the Cell in the Void Fields.', unlocks: ['Characters.Croco'], achievement: 'BeatArena', icon: 'characters/croco' },
   { name: 'Acrid: Pandemic', description: 'As Acrid, inflict Poison 1000 total times.', unlocks: ['Skills.Croco.ChainableLeap'], achievement: 'CrocoTotalInfectionsMilestone', icon: 'skills/croco/chainableleap' },
@@ -138,7 +147,8 @@ export const challenges: Challenge[] = [
   { name: 'Acrid: Easy Prey', description: 'As Acrid, land the killing blow on 50 total enemies that have 1 hit point left.', unlocks: ['Skills.Croco.PassivePoisonLethal'], achievement: 'CrocoKillWeakEnemiesMilestone', icon: 'skills/croco/passivepoisonlethal' },
   { name: 'Acrid: Mastery', description: 'As Acrid, beat the game or obliterate on Monsoon.', unlocks: ['Skins.Croco.Alt1'], achievement: 'CrocoClearGameMonsoon', icon: 'skins/croco/alt1' },
   { name: 'Acrid: Cleared Prime Meridian', description: 'As Acrid, complete the Event on Prime Meridian.', unlocks: ['Skins.Croco.Alt2'], achievement: 'CrocoClearMeridianEvent', icon: 'skins/croco/alt2' },
-
+  { name: 'Acrid: Purge', description: '', unlocks: [''], achievement: 'CrocoPurge', icon: 'artifacts/bomb' },
+  
   /* Captain skills */
   { name: 'Washed Away', description: 'Beat the game.', unlocks: ['Characters.Captain'], achievement: 'CompleteMainEnding', icon: 'characters/captain' },
   { name: 'Captain: Wanderlust', description: 'As Captain, visit 10 different environments in a single run', unlocks: ['Skills.Captain.CaptainSupplyDropEquipmentRestock'], achievement: 'CaptainVisitSeveralStages', icon: 'skills/captain/captainsupplydropequipmentrestock' },
@@ -146,7 +156,8 @@ export const challenges: Challenge[] = [
   { name: 'Captain: Smushed', description: 'As Captain, kill the final boss using a Supply Beacon.', unlocks: ['Skills.Captain.UtilityAlt1'], achievement: 'CaptainSupplyDropFinale', icon: 'skills/captain/utility-alt1' },
   { name: 'Captain: Mastery', description: 'As Captain, beat the game or obliterate on Monsoon.', unlocks: ['Skins.Captain.Alt1'], achievement: 'CaptainClearGameMonsoon', icon: 'skins/captain/alt1' },
   { name: 'Captain: Cleared Prime Meridian', description: 'As Captain, complete the Event on Prime Meridian.', unlocks: ['Skins.Captain.Alt2'], achievement: 'CaptainClearMeridianEvent', icon: 'skins/captain/alt2' },
-
+  { name: 'Captain: Accept and Decompile', description: '', unlocks: [''], achievement: 'CaptainDecompile', icon: 'artifacts/bomb' },
+  
   /* Railgunner skills */
   { name: 'Railgunner: Marksman', description: 'As Railgunner, fire 30 consecutive sniper shots without missing a Weak Point.', unlocks: ['Skills.Railgunner.SecondaryAlt1'], achievement: 'RailgunnerConsecutiveWeakPoints', icon: 'skills/railgunner/marksman' },
   { name: 'Railgunner: Annihilator', description: 'As Railgunner, deal 1,000,000 damage in one shot.', unlocks: ['Skills.Railgunner.UtilityAlt1'], achievement: 'RailgunnerDealMassiveDamage', icon: 'skills/railgunner/annihiliator' },
@@ -162,22 +173,22 @@ export const challenges: Challenge[] = [
   /* Seeker skills */
   { name: 'Seeker: Airborne Souls', description: 'As Seeker, hit three or more airborne enemies with a single use of the exploding third hit of Spirit Punch.', unlocks: ['Skills.Seeker.SoulSearch'], achievement: 'SeekerAirMultiHit', icon: 'skills/seeker/soulsearch' },
   { name: 'Seeker: Mastery', description: 'As Seeker, beat the game or obliterate on Monsoon.', unlocks: ['Skins.Seeker.Alt1'], achievement: 'SeekerClearGameMonsoon', icon: 'skins/seeker/alt1' },
-  { name: 'Seeker: Clear Mind', description: 'As Seeker, meditate 20 times without missing an input in a single run.', unlocks: ['Skills.Seeker.PalmBlast'], achievement: 'SeekerPerfect20Meditation', icon: 'skins/seeker/alt1' },
-  { name: 'Seeker: Scorched Earth', description: 'Deal 500,000% damage with one use of Sojourn\'s explosion', unlocks: ['Skills.Seeker.Reprieve'], achievement: 'SeekerClearMeridianEvent', icon: 'skins/seeker/alt1' },
+  { name: 'Seeker: Clear Mind', description: 'As Seeker, meditate 20 times without missing an input in a single run.', unlocks: ['Skills.Seeker.PalmBlast'], achievement: 'SeekerPerfect20Meditation', icon: 'artifacts/bomb' },
+  { name: 'Seeker: Scorched Earth', description: 'Deal 500,000% damage with one use of Sojourn\'s explosion', unlocks: ['Skills.Seeker.Reprieve'], achievement: 'SeekerClearMeridianEvent', icon: 'artifacts/bomb' },
 
   /* Chef skills */
   { name: 'Order Up!', description: 'Complete the Wok\'s recipe in Reformed Altar.', unlocks: ['Characters.Chef'], achievement: 'ActivateChef', icon: 'characters/chef' },
   { name: 'Chef: Barbecued Bison Recipe Complete', description: 'As Chef complete 10 recipes by searing an oiled bison with Sear.', unlocks: ['Skills.Chef.YesChef'], achievement: 'BarbecueQuantityBisonInRun', icon: 'skills/chef/searbison' },
   { name: 'Chef: Mastery', description: 'As Chef, beat the game or obliterate on Monsoon.', unlocks: ['Skins.Chef.Alt1'], achievement: 'ChefClearGameMonsoon', icon: 'skins/chef/alt1' },
-  { name: 'CHEF: You’ve Always Been Crazy', description: 'As CHEF hit five airborne enemies with one instance of Roll.', unlocks: ['Skills.Chef.OilSpill'], achievement: 'ChefMeridianEvent', icon: 'skins/chef/alt1' },
-  { name: 'CHEF: It’s Getting Hot In Here!', description: 'As CHEF apply 20 stacks of Burn at once to the final boss.', unlocks: ['Skills.Chef.IceBox'], achievement: 'BurnMithrix', icon: 'skins/chef/alt1' },
+  { name: 'CHEF: You’ve Always Been Crazy', description: 'As CHEF hit five airborne enemies with one instance of Roll.', unlocks: ['Skills.Chef.OilSpill'], achievement: 'ChefMeridianEvent', icon: 'artifacts/bomb' },
+  { name: 'CHEF: It’s Getting Hot In Here!', description: 'As CHEF apply 20 stacks of Burn at once to the final boss.', unlocks: ['Skills.Chef.IceBox'], achievement: 'BurnMithrix', icon: 'artifacts/bomb' },
 
   /* False Son skills */
   { name: 'Purified Freedom', description: 'Purify the Heart of the False Son using the Halcyon Seed.', unlocks: ['Characters.FalseSon'], achievement: 'UnlockFalseSon', icon: 'characters/falseson' },
   { name: 'False Son: Stare Them Down', description: 'As False Son, kill 15 enemies with one activation of Laser of the Father.', unlocks: ['Skills.FalseSon.LaserBurst'], achievement: 'FalseSonLaserMultiKill', icon: 'skills/falseson/laserburst' },
   { name: 'False Son: Mastery', description: 'As False Son, beat the game or obliterate on Monsoon.', unlocks: ['Skins.FalseSon.Alt1'], achievement: 'FalseSonClearGameMonsoon', icon: 'skins/falseson/alt1' },
-  { name: 'False Son: Protein Heavy Diet', description: 'As False Son, gain up to 40 Lunar Spikes through Growth.', unlocks: ['Skills.FalseSon.LunarStake'], achievement: 'FalseSonGrowthChallenge', icon: 'skins/falseson/alt1' },
-  { name: 'False Son: Family Bonding', description: 'As False Son, have Aurelionite kill the final boss while the final boss is inflicted with at least one Lunar Ruin.', unlocks: ['Skills.FalseSon.MeridiansWill'], achievement: 'FalseSonKillMithrixWithGoldenGal', icon: 'skins/falseson/alt1' },
+  { name: 'False Son: Protein Heavy Diet', description: 'As False Son, gain up to 40 Lunar Spikes through Growth.', unlocks: ['Skills.FalseSon.LunarStake'], achievement: 'FalseSonGrowthChallenge', icon: 'artifacts/bomb' },
+  { name: 'False Son: Family Bonding', description: 'As False Son, have Aurelionite kill the final boss while the final boss is inflicted with at least one Lunar Ruin.', unlocks: ['Skills.FalseSon.MeridiansWill'], achievement: 'FalseSonKillMithrixWithGoldenGal', icon: 'artifacts/bomb' },
 
   /* Operator Skills */
   { name: 'Lost in Transit', description: '', unlocks: ['Skills.DroneTech.ShieldFormation'], achievement: 'DroneTechTrickshot', icon: 'artifacts/bomb' },
@@ -214,4 +225,5 @@ export const challenges: Challenge[] = [
   { name: 'Trial of Frailty', description: 'Complete the Trial of Frailty.', unlocks: ['Artifacts.WeakAssKnees'], achievement: 'ObtainArtifactWeakAssKnees', icon: 'artifacts/weakassknees' },
   { name: 'Trial of Soul', description: 'Complete the Trial of Soul.', unlocks: ['Artifacts.WispOnDeath'], achievement: 'ObtainArtifactWispOnDeath', icon: 'artifacts/wispondeath' },
   { name: 'Experienced Rebirth', description: 'Gain the power of another life by offering to the Shrine of Rebirth.', unlocks: ['Artifacts.Rebirth'], achievement: 'ObtainArtifactRebirth', icon: 'artifacts/rebirth' },
+  { name: 'Trial of Prestige', description: 'Complete the Trial of Prestige', unlocks: [''], achievement: 'ObtainArtifactPrestige', icon: 'artifacts/bomb' },
 ] as const;
