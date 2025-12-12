@@ -176,6 +176,8 @@ export const challenges: Challenge[] = [
   { name: 'Purified Freedom', description: 'Purify the Heart of the False Son using the Halcyon Seed.', unlocks: ['Characters.FalseSon'], achievement: 'UnlockFalseSon', icon: 'characters/falseson' },
   { name: 'False Son: Stare Them Down', description: 'As False Son, kill 15 enemies with one activation of Laser of the Father.', unlocks: ['Skills.FalseSon.LaserBurst'], achievement: 'FalseSonLaserMultiKill', icon: 'skills/falseson/laserburst' },
   { name: 'False Son: Mastery', description: 'As False Son, beat the game or obliterate on Monsoon.', unlocks: ['Skins.FalseSon.Alt1'], achievement: 'FalseSonClearGameMonsoon', icon: 'skins/falseson/alt1' },
+  { name: 'False Son: Protein Heavy Diet', description: 'As False Son, gain up to 40 Lunar Spikes through Growth.', unlocks: ['Skills.FalseSon.LunarStake'], achievement: 'FalseSonGrowthChallenge', icon: 'skins/falseson/alt1' },
+  { name: 'False Son: Family Bonding', description: 'As False Son, have Aurelionite kill the final boss while the final boss is inflicted with at least one Lunar Ruin.', unlocks: ['Skills.FalseSon.MeridiansWill'], achievement: 'FalseSonClearMeridianEvent', icon: 'skins/falseson/alt1' },
 
   /* Artifacts */
   { name: 'Trial of Spite', description: 'Complete the Trial of Spite.', unlocks: ['Artifacts.Bomb'], achievement: 'ObtainArtifactBomb', icon: 'artifacts/bomb' },
