@@ -30,10 +30,10 @@ export default function ChallengeBox({
         <picture>
           <source
             type="image/webp"
-            srcSet={`/images/webp/${challenge.icon}.webp`}
+            srcSet={`/ror2-editor/images/webp/${challenge.icon}.webp`}
           />
           <img
-            src={`/images/png/${challenge.icon}.png`}
+            src={`/ror2-editor/images/png/${challenge.icon}.png`}
             alt={`${challenge.name} icon`}
           />
         </picture>
